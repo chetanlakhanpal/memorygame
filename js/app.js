@@ -220,7 +220,7 @@ function MemoryGame() {
 
   this.init();
 }
-
+//Using single Instance to initialize game as only once instance would be required
 new MemoryGame();
 
 /*
