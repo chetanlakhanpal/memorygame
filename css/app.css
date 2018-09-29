@@ -69,6 +69,8 @@ h1 {
     transform: rotateY(0);
     background: #02b3e4;
     cursor: default;
+    transition-duration: .5;
+    transition: transform .5s;
 }
 
 .deck .card.show {
@@ -110,4 +112,8 @@ h1 {
 .score-panel .restart {
     float: right;
     cursor: pointer;
+}
+.popup-stars li {
+    list-style: none;
+    display: inline-block;
 }
